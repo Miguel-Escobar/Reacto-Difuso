@@ -47,6 +47,10 @@
                       pkgs.git
                       pkgs.python312Packages.torchWithRocm
                       pkgs.python312Packages.torchvision
+                      pkgs.rocmPackages.rocblas
+                      pkgs.rocmPackages.hipblas
+                      pkgs.rocmPackages.hipblaslt
+                      pkgs.rocmPackages.clr
                     ];
 
                     # https://devenv.sh/languages/
